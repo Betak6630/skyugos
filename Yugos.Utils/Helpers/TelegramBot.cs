@@ -46,5 +46,9 @@ namespace Yugos.Utils.Helpers
             }
         }
 
+        public static void Send(string text)
+        {
+           
+        }
     }
 }
