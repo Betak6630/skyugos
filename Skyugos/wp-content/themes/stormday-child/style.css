@@ -1,0 +1,296 @@
+﻿/*  
+Theme Name: Stormday Child
+Description: Stormday - Premium Wordpress Theme
+Version:1.3.1
+Author:gljivec
+Theme URI:http://themeforest.net/
+Author URI:http://premiumcoding.com/
+License URI:http://themeforest.net/
+Template: stormday
+*/
+
+@import url("../stormday/style.css");  
+
+/*your content goes from here*/
+
+/* Стили текста */
+
+.h1 {font-size:30px;}
+.h2 {font-size:26px;}
+.h3 {font-size:22px;}
+.h4 {font-size:18px;}
+.h5 {font-size:16px;}
+.h6 {font-size:12px;}
+
+
+/* Buttons */
+
+.btn {
+    display: block;
+    max-width: 220px;
+    text-align: center;
+    outline: none;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    -moz-transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    -o-transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.btn-lg {
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 20px 0 30px;
+}
+
+.btn-primary {
+    background-color: #2C9F5C;
+    border-color: #2C9F5C;
+    border-radius: 3px;
+    color: #fff !important;
+}
+
+.btn-primary:focus, .btn-primary:hover {
+    border-radius: 9px;
+}
+
+/* Страница контактов */
+
+
+h3.viking {font-family:'Roboto';font-size:20px;font-weight:500;color:#212121;}
+p.viking, ol.viking > li, ul.viking > li , .viking-contacts ul > li {font-family:'Roboto';font-size:16px;font-weight:300;color:#212121;line-height:1.32em;}
+ol.viking > li {margin-bottom:20px;}
+ul.viking > li {list-style:none;padding-left:15px;position:relative;margin:10px 0;}
+ul.viking > li:before {content:'-';position:absolute; left:0;}
+.viking-contacts {position:relative;margin:0 -15px;}
+.viking-contacts > div {position:relative; padding:0 15px; width:45%;float:left;}
+.viking-contacts ul {list-style:none; padding:0;}
+.viking-contacts ul > li {line-height:1.5em;}
+.viking-contacts ul > li > span {font-weight:500;}
+
+/* Форма запроса проекта */
+
+
+.projectform p {
+	margin-bottom:10px;
+	text-transform:none;
+}
+.projectform input {
+	padding:0;
+	padding-left:10px !important;
+	width:100%;
+	background:#fff;
+	min-height:45px;
+	border-radius:0px;
+	border:1px solid #ccc;
+	border-bottom-width:3px;
+	font-size:15px;
+  border-radius:3px;
+	box-sizing:border-box;
+	max-width:95%;
+	position:relative;
+	margin-bottom:20px;
+	}
+.projectform input[type=submit]{
+	border-color:#2C9F5C;
+	background-color:#2C9F5C;
+	color:#fff;
+	font-weight:900;
+	text-transform:uppercase;
+	-webkit-transition:all 0.4s ease-in-out;
+	transition:all 0.4s ease-in-out;
+	margin-top:20px;
+}
+.projectform input[type=submit]:focus, .projectform input[type=submit]:hover, .projectform input[type=submit]:active {color:#fff;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+.projectform  input[type=text]:focus, input[type=tel]:focus,input[type=email]:focus {border-color:#2C9F5C;}
+.projectform  input::-webkit-input-placeholder {-webkit-transition:all 0.4s ease-in;	font-weight:300 !important;}
+.projectform  input:active::-webkit-input-placeholder {color:rgba(114,114,114,0);}
+.projectform  input:focus::-webkit-input-placeholder {color:rgba(114,114,114,0);}
+.projectform  input::-moz-placeholder {-moz-transition:all 0.4s ease-in;	font-weight:300;}
+.projectform  input:active::-moz-placeholder {color:rgba(114,114,114,0);}
+.projectform  input:focus::-moz-placeholder {color:rgba(114,114,114,0);}
+.projectform  input::-ms-placeholder {-ms-transition:all 0.4s ease-in;	font-weight:300;}
+.projectform  input:active::-ms-placeholder {color:rgba(114,114,114,0);}
+.projectform  input:focus::-ms-placeholder {color:rgba(114,114,114,0);}
+.projectform  input::-o-placeholder {-o-transition:all 0.4s ease-in;	font-weight:300;}
+.projectform  input:active::-o-placeholder {color:rgba(114,114,114,0);}
+.projectform  input:focus::-o-placeholder {color:rgba(114,114,114,0);}
+.projectform  .wpcf7-form-control {color:#212121;	font-weight:300;}
+.projectform  .wpcf7-form-control:focus {box-shadow:inset 0 1px 1px rgba(0, 0, 0,.075),0 0 8px rgba(44, 159, 92,.6);}
+.projectform  .wpcf7-form-control:hover, .form-control:active, .form-control:focus {color:#212121;}
+.projectform  .wpcf7-form-control::-webkit-input-placeholder {color:rgba(33,33,33,.7); -webkit-transition:all 0.4s ease-in;	font-weight:300;}
+.projectform  .wpcf7-form-control:hover::-webkit-input-placeholder {color:rgba(33,33,33,1);}
+.projectform  .wpcf7-form-control:active::-webkit-input-placeholder {color:rgba(33,33,33,0);}
+.projectform  .wpcf7-form-control:focus::-webkit-input-placeholder {color:rgba(33,33,33,0);}
+.projectform  .wpcf7-form-control::-moz-placeholder {color:rgba(33,33,33,.7); -moz-transition:all 0.4s ease-in;	font-weight:300;}
+.projectform  .wpcf7-form-control:hover::-moz-placeholder {color:rgba(33,33,33,1);}
+.projectform  .wpcf7-form-control:active::-moz-placeholder {color:rgba(33,33,33,0);}
+.projectform  .wpcf7-form-control:focus::-moz-placeholder {color:rgba(33,33,33,0);}
+.projectform  .wpcf7-form-control::-ms-placeholder {color:rgba(33,33,33,.7); -ms-transition:all 0.4s ease-in;	font-weight:300;}
+.projectform  .wpcf7-form-control:hover::-ms-placeholder {color:rgba(33,33,33,1);}
+.projectform  .wpcf7-form-control:active::-ms-placeholder {color:rgba(33,33,33,0);}
+.projectform  .wpcf7-form-control:focus::-ms-placeholder {color:rgba(33,33,33,0);}
+.projectform  .wpcf7-form-control::-o-placeholder {color:rgba(33,33,33,.7); -o-transition:all 0.4s ease-in;	font-weight:300;}
+.projectform  .wpcf7-form-control:hover::-o-placeholder {color:rgba(33,33,33,1);}
+.projectform  .wpcf7-form-control:active::-o-placeholder {color:rgba(33,33,33,0);}
+.projectform  .wpcf7-form-control:focus::-o-placeholder {color:rgba(33,33,33,0);}
+
+.projectform  div.wpcf7-mail-sent-ok,
+.projectform  div.wpcf7-validation-errors,
+.projectform  div.wpcf7-mail-sent-ng,
+.projectform  div.wpcf7-spam-blocked
+{
+	color:#212121;
+	line-height:1;
+	font-size:14px;
+	font-weight:300;
+	vertical-align:middle;
+	text-align:center;
+	text-transform:none;
+	height:auto;
+	padding:15px;
+}
+
+/* Стили акции на странице проекта */
+
+.spec p,.spec  span {
+	line-height:1;
+	margin:0;
+}
+.spec_announce {
+	font-size:24px;
+	font-weight:900;
+	line-height:3;
+}
+.spec_wrapper {
+	display:block;
+	padding: 30px;
+	height:auto;
+	width:100%;
+	position:relative;
+	box-sizing:border-box;
+	border:3px solid #2C9F5C;
+	border-radius:15px;
+}
+.spec_heading {
+	font-size:20px;
+	font-weight:700;
+	margin-bottom:20px !important;
+}
+.spec_date {
+	font-size:16px;
+	font-weight:300;
+	margin-bottom:10px !important;
+}
+.spec_info {
+	font-size:16px;
+	font-weight:400;
+	line-height:1.37 !important;
+}
+
+/* Прочие стили */
+
+#header {
+	position:relative;
+}
+#logo {
+	position:relative;
+}
+#logo img {
+	max-height:55px;
+	width:auto;
+}
+.menu > li a {
+	font-family:"Roboto";
+	font-weight:300;
+}
+
+div#slider-category img {
+	height:auto;
+	width:100%;
+}
+#footer .textwidget {font-weight:300;}
+.pmc-image img {width:100%}
+#home-block-break > p {
+	text-align:center;
+	text-transform:uppercase;
+	color:#fff;
+}
+.pretitle {
+	font-size:36px;
+	font-weight:100;
+	margin-bottom:20px;
+    line-height: 1.1;
+}
+.maintitle {
+	font-size:125px;
+	font-weight:900;
+	margin-bottom:30px;
+	line-height:1.1;
+}
+#home-block-break > hr {
+	max-width:570px;
+	width:30%;
+	margin:0 auto;
+
+}
+.subtitle {
+	font-size:40px;
+	font-weight:100;
+	margin-top:40px;
+    line-height: 1.1;
+}
+.mainwrap {
+    background-size: cover !important;
+}
+.team > .social img {width:20px;height:20px;}
+.testimonial-texts > p {font-weight:300;}
+.pmc-number-span {font-size:24px;font-weight:700;}
+.addthis_toolbox a.at300b, .addthis_toolbox a.at300m {
+    width: 40px !important;
+		margin-bottom:0 !important;
+}
+.homerecent {padding:0;}
+.homerecent.homePort .homerecentInner.fullwidth .recentimage .overdefult h3 {font-weight:900;}
+.img-responsive {width:100%; height:auto;}
+.project-section span.authorp {font-size:24px; color:#2C9F5C; line-height:1.37;}
+.project-section span.oldcost {font-size:20px; color:#F44336; text-decoration:line-through;font-weight:300;}
+
+.flex-container {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 0 !important;
+    width:100%;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-align-content: stretch;
+        -ms-flex-line-pack: stretch;
+            align-content: stretch;
+}
+.flex-item {
+    -webkit-flex-basis: 120px;
+        -ms-flex-preferred-size: 120px;
+            flex-basis: 120px;
+    padding: 5px !important;
+    border-bottom: none !important;
+}
+
+.projectdetails #slider .bx-viewport li {
+    max-width:100% !important;
+}
+
+
+/*=== Mobile ===*/
+@media only screen and (max-width:768px) {
+    .maintitle {
+        font-size: 55px;
+    }
+}
