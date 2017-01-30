@@ -176,10 +176,13 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\imgaes\banja.jpg" />
+    <Content Include="Content\imgaes\banja1.jpg" />
     <Content Include="Content\imgaes\contactform-background-3.jpg" />
     <Content Include="Content\imgaes\dacha.jpg" />
+    <Content Include="Content\imgaes\dacha2.jpg" />
     <Content Include="Content\imgaes\derevyannaya_mebel-90x60.jpg" />
     <Content Include="Content\imgaes\dom.jpg" />
+    <Content Include="Content\imgaes\dom1.jpg" />
     <Content Include="Content\imgaes\email-social-bottom2.png" />
     <Content Include="Content\imgaes\facebook-social-bottom2.png" />
     <Content Include="Content\imgaes\favicon\android-icon-144x144.png" />
@@ -214,6 +217,9 @@
     <Content Include="Content\imgaes\p&amp;h-logo.svg" />
     <Content Include="Content\imgaes\pinterest-social-bottom2.png" />
     <Content Include="Content\imgaes\rekom.jpg" />
+    <Content Include="Content\imgaes\roof-1.jpg" />
+    <Content Include="Content\imgaes\roof-13.jpg" />
+    <Content Include="Content\imgaes\roof-14.jpg" />
     <Content Include="Content\imgaes\slideshow-stormy-3.jpg" />
     <Content Include="Content\imgaes\video-bg-1-90x60.jpg" />
     <Content Include="Content\imgaes\vk.svg" />
