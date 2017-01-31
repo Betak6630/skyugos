@@ -5347,3 +5347,30 @@ div#slider-category img {
         margin: 0 !important;
     }
 }
+@media all and (min-width: 1100px) {
+    .media .media-body {
+        overflow: hidden
+    }
+    }
+
+@media all and (max-width: 768px) {
+    .media .pull-left,
+    .media .pull-left img{
+        float: none !important;
+        width: 100%;
+        margin: 0 !important;
+    }
+    .media .pull-left {
+        margin-bottom: 10px !important;
+    }
+    .media .media-body {
+        overflow: hidden
+    }
+    .media .media-body h4 {
+        font-size: 20px !important;
+    }
+
+}
+@media all and (max-width: 480px) {
+
+}

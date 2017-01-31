@@ -2336,3 +2336,10 @@
   overflow: visible;
   clip: auto;
 }
+
+@media all and (max-width: 768px) {
+    .media .pull-left {
+        float: none !important;
+
+    }
+}
