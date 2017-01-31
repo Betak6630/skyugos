@@ -162,7 +162,7 @@ jQuery('.event-type-selector-dropdown').slideUp({ duration: 500, easing: "easeIn
 });
 });
 jQuery(document).ready(function(){
-	jQuery( ".pagenav.home .menu > li:first-child a" ).addClass('important_color');
+//	jQuery( ".pagenav.home .menu > li:first-child a" ).addClass('important_color');
 	if (jQuery( ".menu-fixedmenu" ).length) {
 		jQuery( ".menu-fixedmenu .menu a" ).each(function() {
 			var id  = jQuery(this).attr('href');
